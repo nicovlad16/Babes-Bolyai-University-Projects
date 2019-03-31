@@ -1,0 +1,15 @@
+0;math
+1;history
+2;fp
+3;info
+4;geography
+5;english
+6;economics
+7;asc
+8;algebra
+9;trigonometry
+10;sport
+11;logics
+12;psychology
+13;finance
+14;marketing

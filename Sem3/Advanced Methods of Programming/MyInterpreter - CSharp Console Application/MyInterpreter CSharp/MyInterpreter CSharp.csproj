@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{74C81997-49E5-4153-B06A-CBDC493F1061}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>MyInterpreter_CSharp</RootNamespace>
+    <AssemblyName>MyInterpreter_CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="controller\Controller.cs" />
+    <Compile Include="controller\ControllerException.cs" />
+    <Compile Include="domain\adt\AdtException.cs" />
+    <Compile Include="domain\adt\IMyDictionary.cs" />
+    <Compile Include="domain\adt\IMyList.cs" />
+    <Compile Include="domain\adt\MyDictionary.cs" />
+    <Compile Include="domain\adt\MyList.cs" />
+    <Compile Include="domain\adt\MyPair.cs" />
+    <Compile Include="domain\adt\MyStack.cs" />
+    <Compile Include="domain\adt\MyStackInterface.cs" />
+    <Compile Include="domain\expression\ArithmeticExpression.cs" />
+    <Compile Include="domain\expression\ConstantExpression.cs" />
+    <Compile Include="domain\expression\Expression.cs" />
+    <Compile Include="domain\expression\ExpressionException.cs" />
+    <Compile Include="domain\expression\VariableExpression.cs" />
+    <Compile Include="domain\ProgramState.cs" />
+    <Compile Include="domain\statement\AssignStatement.cs" />
+    <Compile Include="domain\statement\CloseStatement.cs" />
+    <Compile Include="domain\statement\CompoundStatement.cs" />
+    <Compile Include="domain\statement\IfStatement.cs" />
+    <Compile Include="domain\statement\IStatement.cs" />
+    <Compile Include="domain\statement\OpenStatement.cs" />
+    <Compile Include="domain\statement\PrintStatement.cs" />
+    <Compile Include="domain\statement\ReadStatement.cs" />
+    <Compile Include="domain\statement\StatementException.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="repository\IRepository.cs" />
+    <Compile Include="repository\Repository.cs" />
+    <Compile Include="repository\RepositoryException.cs" />
+    <Compile Include="view\Command.cs" />
+    <Compile Include="view\ExitCommand.cs" />
+    <Compile Include="view\RunExample.cs" />
+    <Compile Include="view\TextMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="logFiles" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inputFiles\test1.in" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

@@ -1,0 +1,17 @@
+
+threadID: 1
+ExeStack:
+print((10+(2<6)))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+SymbolTable:
+Print output:
+11
+FileTable:
+HeapTable:
+

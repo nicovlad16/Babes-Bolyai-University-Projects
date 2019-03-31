@@ -1,0 +1,6 @@
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/bin/Debug/MyInterpreter_CSharp.exe
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/bin/Debug/MyInterpreter_CSharp.pdb
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/obj/Debug/MyInterpreter CSharp.csprojAssemblyReference.cache
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/obj/Debug/MyInterpreter CSharp.csproj.CoreCompileInputs.cache
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/obj/Debug/MyInterpreter_CSharp.exe
+/home/nvlad/Desktop/MyInterpreter CSharp/MyInterpreter CSharp/obj/Debug/MyInterpreter_CSharp.pdb

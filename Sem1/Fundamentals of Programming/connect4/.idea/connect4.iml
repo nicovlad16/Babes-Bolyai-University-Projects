@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 3.6" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="obstruction" />
+    <orderEntry type="module" module-name="battleship" />
+    <orderEntry type="module" module-name="hangman" />
+    <orderEntry type="module" module-name="obstruction" />
+    <orderEntry type="module" module-name="order_and_chaos" />
+    <orderEntry type="module" module-name="quiz" />
+    <orderEntry type="module" module-name="Scramble" />
+    <orderEntry type="module" module-name="Grafuri_lab" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

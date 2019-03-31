@@ -1,0 +1,604 @@
+
+threadID: 1
+ExeStack:
+((v=20;(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1)))));print((v*10)))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(v=20;(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1)))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(v=20;(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1)))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1))))
+v=20
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1))))
+v=20
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1))))
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(for(v=0;v<3;v=(v+1))fork((print(v);v=(v+1))))
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(v=0;(while(v<3)(fork((print(v);v=(v+1)));v=(v+1))))
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(v=0;(while(v<3)(fork((print(v);v=(v+1)));v=(v+1))))
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=0
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=0
+SymbolTable:
+v --> 20
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 2
+ExeStack:
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 3
+ExeStack:
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+(print(v);v=(v+1))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(while(v<3)(fork((print(v);v=(v+1)));v=(v+1)))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+v=(v+1)
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+30
+FileTable:
+HeapTable:
+
+threadID: 4
+ExeStack:
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+30
+FileTable:
+HeapTable:
+

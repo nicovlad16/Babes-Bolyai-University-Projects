@@ -1,0 +1,66 @@
+
+threadID: 1
+ExeStack:
+(v=2;print(v))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print(v)
+v=2
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print(v)
+v=2
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+SymbolTable:
+v --> 2
+Print output:
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+

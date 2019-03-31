@@ -1,0 +1,34 @@
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(openRFile(var_f,"../../inputFiles/test1.in";(ReadFile(var_f+2, var_c);print(var_c)))
+SymbolTable:
+FileTable:
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(ReadFile(var_f+2, var_c);print(var_c))
+openRFile(var_f,"../../inputFiles/test1.in"
+SymbolTable:
+FileTable:
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(ReadFile(var_f+2, var_c);print(var_c))
+SymbolTable:
+var_f --> 2
+FileTable:
+2 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+print(var_c)
+ReadFile(var_f+2, var_c)
+SymbolTable:
+var_f --> 2
+FileTable:
+2 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+

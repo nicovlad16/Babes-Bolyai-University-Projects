@@ -1,0 +1,961 @@
+
+threadID: 1
+ExeStack:
+((v=0;(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3)));((x=1;y=2);((z=3;w=4);print((v*10)))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(v=0;(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3)))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(v=0;(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3)))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3))
+v=0
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3))
+v=0
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(repeat(fork((print(v);v=(v-1)));v=(v+1))until(v==3))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+((fork((print(v);v=(v-1)));v=(v+1));(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1))))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+((fork((print(v);v=(v-1)));v=(v+1));(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1))))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+(fork((print(v);v=(v-1)));v=(v+1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+(fork((print(v);v=(v-1)));v=(v+1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 1
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 0
+Print output:
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 0
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 0
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 2
+ExeStack:
+SymbolTable:
+v --> -1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 1
+Print output:
+0
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 1
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+fork((print(v);v=(v-1)))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 1
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 3
+ExeStack:
+SymbolTable:
+v --> 0
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+v=(v+1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+(print(v);v=(v-1))
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+(while(!(v==3))(fork((print(v);v=(v-1)));v=(v+1)))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+v=(v-1)
+print(v)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((x=1;y=2);((z=3;w=4);print((v*10))))
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+v=(v-1)
+SymbolTable:
+v --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+(x=1;y=2)
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 4
+ExeStack:
+SymbolTable:
+v --> 1
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+(x=1;y=2)
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+y=2
+x=1
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+y=2
+x=1
+SymbolTable:
+v --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+y=2
+SymbolTable:
+v --> 3
+x --> 1
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+y=2
+SymbolTable:
+v --> 3
+x --> 1
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+((z=3;w=4);print((v*10)))
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(z=3;w=4)
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+(z=3;w=4)
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+w=4
+z=3
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+w=4
+z=3
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+w=4
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+w=4
+SymbolTable:
+v --> 3
+x --> 1
+y --> 2
+z --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+SymbolTable:
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+print((v*10))
+SymbolTable:
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Print output:
+0
+1
+2
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+
+threadID: 1
+ExeStack:
+SymbolTable:
+v --> 3
+w --> 4
+x --> 1
+y --> 2
+z --> 3
+Print output:
+0
+1
+2
+30
+FileTable:
+HeapTable:
+SemaphoreTable:
+LatchTable:
+

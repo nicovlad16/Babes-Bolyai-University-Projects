@@ -1,0 +1,433 @@
+
+threadID: 1
+ExeStack:
+(((v=10;new(a,22));fork(((wH(a,30);v=32);fork((print(v);print(rH(a)))))));(print(v);print(rH(a))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+((v=10;new(a,22));fork(((wH(a,30);v=32);fork((print(v);print(rH(a)))))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+((v=10;new(a,22));fork(((wH(a,30);v=32);fork((print(v);print(rH(a)))))))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+(v=10;new(a,22))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+(v=10;new(a,22))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+new(a,22)
+v=10
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+new(a,22)
+v=10
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+new(a,22)
+SymbolTable:
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+new(a,22)
+SymbolTable:
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+fork(((wH(a,30);v=32);fork((print(v);print(rH(a))))))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+((wH(a,30);v=32);fork((print(v);print(rH(a)))))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+(print(v);print(rH(a)))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+((wH(a,30);v=32);fork((print(v);print(rH(a)))))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+print(rH(a))
+print(v)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+(wH(a,30);v=32)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+print(rH(a))
+print(v)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+(wH(a,30);v=32)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+print(rH(a))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+v=32
+wH(a,30)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+print(rH(a))
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+v=32
+wH(a,30)
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+FileTable:
+HeapTable:
+1 --> 22
+
+threadID: 1
+ExeStack:
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+v=32
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+v=32
+SymbolTable:
+a --> 1
+v --> 10
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 2
+ExeStack:
+fork((print(v);print(rH(a))))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 2
+ExeStack:
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+(print(v);print(rH(a)))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+(print(v);print(rH(a)))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+print(rH(a))
+print(v)
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+print(rH(a))
+print(v)
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+print(rH(a))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+32
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+print(rH(a))
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+32
+FileTable:
+HeapTable:
+1 --> 30
+
+threadID: 3
+ExeStack:
+SymbolTable:
+a --> 1
+v --> 32
+Print output:
+10
+22
+32
+30
+FileTable:
+HeapTable:
+1 --> 30
+

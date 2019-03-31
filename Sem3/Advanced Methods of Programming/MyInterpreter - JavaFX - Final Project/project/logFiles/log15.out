@@ -1,0 +1,168 @@
+
+threadID: 1
+ExeStack:
+(((a=1;b=2);c=a?100:200);((print(c);c=(b-2)?100:200);print(c)))
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+((a=1;b=2);c=a?100:200)
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+((a=1;b=2);c=a?100:200)
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+(a=1;b=2)
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+(a=1;b=2)
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+b=2
+a=1
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+b=2
+a=1
+SymbolTable:
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+b=2
+SymbolTable:
+a --> 1
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+b=2
+SymbolTable:
+a --> 1
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=a?100:200
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+IF(a)THEN(c=100)ELSE(c=200)
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+IF(a)THEN(c=100)ELSE(c=200)
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=100
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+c=100
+SymbolTable:
+a --> 1
+b --> 2
+Print output:
+FileTable:
+HeapTable:
+
+threadID: 1
+ExeStack:
+((print(c);c=(b-2)?100:200);print(c))
+SymbolTable:
+a --> 1
+b --> 2
+c --> 100
+Print output:
+FileTable:
+HeapTable:
+

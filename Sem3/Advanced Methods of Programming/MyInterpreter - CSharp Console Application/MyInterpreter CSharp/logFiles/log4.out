@@ -1,0 +1,119 @@
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(openRFile(var_f,"../../inputFiles/test1.in";(ReadFile(var_f, var_c);print(var_c)))
+SymbolTable:
+FileTable:
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(ReadFile(var_f, var_c);print(var_c))
+openRFile(var_f,"../../inputFiles/test1.in"
+SymbolTable:
+FileTable:
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+(ReadFile(var_f, var_c);print(var_c))
+SymbolTable:
+var_f --> 1
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+print(var_c)
+ReadFile(var_f, var_c)
+SymbolTable:
+var_f --> 1
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+print(var_c)
+SymbolTable:
+var_f --> 1
+var_c --> 17
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+
+ExeStack:
+(IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0));CloseFile(var_f))
+SymbolTable:
+var_f --> 1
+var_c --> 17
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+
+ExeStack:
+CloseFile(var_f)
+IF(var_c)THEN((ReadFile(var_f, var_c);print(var_c)))ELSE(print(0))
+SymbolTable:
+var_f --> 1
+var_c --> 17
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+
+ExeStack:
+CloseFile(var_f)
+(ReadFile(var_f, var_c);print(var_c))
+SymbolTable:
+var_f --> 1
+var_c --> 17
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+
+ExeStack:
+CloseFile(var_f)
+print(var_c)
+ReadFile(var_f, var_c)
+SymbolTable:
+var_f --> 1
+var_c --> 17
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+
+ExeStack:
+CloseFile(var_f)
+print(var_c)
+SymbolTable:
+var_f --> 1
+var_c --> 0
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+
+ExeStack:
+CloseFile(var_f)
+SymbolTable:
+var_f --> 1
+var_c --> 0
+FileTable:
+1 --> ../../inputFiles/test1.in System.IO.StreamReader
+Print output:
+17
+0
+
+ExeStack:
+SymbolTable:
+var_f --> 1
+var_c --> 0
+FileTable:
+Print output:
+17
+0
+

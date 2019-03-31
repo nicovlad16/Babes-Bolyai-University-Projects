@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.2/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.2/system/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_MyInterpreter CSharp.1387204199.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="MyInterpreter CSharp" t="IncludeRecursive">
+        <e p="MyInterpreter CSharp.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="controller" t="Include">
+          <e p="Controller.cs" t="Include" />
+          <e p="ControllerException.cs" t="Include" />
+        </e>
+        <e p="domain" t="Include">
+          <e p="ProgramState.cs" t="Include" />
+          <e p="adt" t="Include">
+            <e p="AdtException.cs" t="Include" />
+            <e p="IMyDictionary.cs" t="Include" />
+            <e p="IMyList.cs" t="Include" />
+            <e p="MyDictionary.cs" t="Include" />
+            <e p="MyList.cs" t="Include" />
+            <e p="MyPair.cs" t="Include" />
+            <e p="MyStack.cs" t="Include" />
+            <e p="MyStackInterface.cs" t="Include" />
+          </e>
+          <e p="expression" t="Include">
+            <e p="ArithmeticExpression.cs" t="Include" />
+            <e p="ConstantExpression.cs" t="Include" />
+            <e p="Expression.cs" t="Include" />
+            <e p="ExpressionException.cs" t="Include" />
+            <e p="VariableExpression.cs" t="Include" />
+          </e>
+          <e p="statement" t="Include">
+            <e p="AssignStatement.cs" t="Include" />
+            <e p="CloseStatement.cs" t="Include" />
+            <e p="CompoundStatement.cs" t="Include" />
+            <e p="IStatement.cs" t="Include" />
+            <e p="IfStatement.cs" t="Include" />
+            <e p="OpenStatement.cs" t="Include" />
+            <e p="PrintStatement.cs" t="Include" />
+            <e p="ReadStatement.cs" t="Include" />
+            <e p="StatementException.cs" t="Include" />
+          </e>
+        </e>
+        <e p="inputFiles" t="Include">
+          <e p="test1.in" t="Include" />
+        </e>
+        <e p="logFiles" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="repository" t="Include">
+          <e p="IRepository.cs" t="Include" />
+          <e p="Repository.cs" t="Include" />
+          <e p="RepositoryException.cs" t="Include" />
+        </e>
+        <e p="view" t="Include">
+          <e p="Command.cs" t="Include" />
+          <e p="ExitCommand.cs" t="Include" />
+          <e p="RunExample.cs" t="Include" />
+          <e p="TextMenu.cs" t="Include" />
+        </e>
+      </e>
+      <e p="MyInterpreter CSharp.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
